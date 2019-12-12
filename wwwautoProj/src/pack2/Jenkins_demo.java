@@ -1,9 +1,9 @@
 package pack2;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.Assert;
-import org.testng.annotations.Test;
 
 public class Jenkins_demo {
 
@@ -24,7 +24,7 @@ public class Jenkins_demo {
 	System.out.println("Before Assetion : " + " "+  expectTitle);
 	
 	//it will compare actual title and expected title
-	Assert.assertEquals(actualTitle, expectTitle);
+	AssertJUnit.assertEquals(actualTitle, expectTitle);
 		System.out.println("After Assertion : " + " "+actualTitle + " -->Successful -- Title matched ");
 	
 	driver.quit();
