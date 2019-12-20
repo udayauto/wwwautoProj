@@ -1,1 +1,8 @@
-/target/
+*.svn
+*.idea
+.idea/*
+*.iml
+work/*
+target/*
+.settings/
+.classpath
