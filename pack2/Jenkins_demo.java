@@ -11,7 +11,7 @@ public class Jenkins_demo {
 	@Test
 	public void testgooglrsearch() {
 		
-	String expectTitle = "Selenium - Google Search";	
+	String expectTitle = "Selenium - Google Search Successful!!";	
 	
 	System.setProperty("webdriver.chrome.driver", "C:\\Selenium\\Drivers\\chromedriver.exe");
 	WebDriver driver = new ChromeDriver();	
