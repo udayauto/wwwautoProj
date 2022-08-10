@@ -27,6 +27,7 @@ public class Jenkins_demo {
 	AssertJUnit.assertEquals(actualTitle, expectTitle);
 		System.out.println("After Assertion : " + " "+actualTitle + " -->Successful -- Title matched ");
 	
+	//Close browser
 	driver.quit();
 	
 	 }
